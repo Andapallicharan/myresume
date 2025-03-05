@@ -1,0 +1,36 @@
+body{
+    margin:0%;
+    color:white;
+}
+.navbar{
+    background-color: rgb(61, 165, 42);
+    display: flex;
+    flex-direction: row;
+    border:2px red solid;
+    justify-content:space-between;
+}
+.navbar-left{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+ }
+.navbar-right{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 15px;
+}
+.element-r{
+    border:2px rgb(57, 81, 191) double;
+    margin:20px;
+    padding: 10px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    color: rgb(1, 5, 5);
+    background-color: rgba(180, 233, 233, 0.542);
+    border: 3px red solid;
+    width: device-width;
+}
+
